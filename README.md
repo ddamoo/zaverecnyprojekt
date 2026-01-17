@@ -28,7 +28,8 @@ Zdrojové dáta pochádzajú zo Snowflake Marketplace (OAG Flight Status Data Sa
 Surové dáta sú usporiadané v relačnom modeli, znázornenom na entitno-relačnom diagrame (ERD).  
 
 **ERD Schema**  
-Obrázok 1 – Entitno-relačná schéma Flight Status
+<img width="1916" height="953" alt="ERD" src="https://github.com/user-attachments/assets/2b1eba6e-a075-49c2-8667-5c889535d43b" />
+
 
 ---
 
@@ -42,7 +43,7 @@ Pre analýzu bola navrhnutá **schéma hviezdy (Star Schema)** podľa Kimballove
 - **dim_date** – informácie o dátumoch letov (deň, mesiac, rok).
 
 **Star Schema**  
-Obrázok 2 – Schéma hviezdy pre Flight Status
+<img width="982" height="607" alt="starschema" src="https://github.com/user-attachments/assets/13043f20-fe80-4b30-a6a6-875474504da4" />
 
 ---
 
